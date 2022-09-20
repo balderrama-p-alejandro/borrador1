@@ -1,0 +1,70 @@
+*{
+    border-radius: 5px;
+}
+body{
+    background: url(car.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.logo{
+    width: 200px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.hola{
+    width: 965px;
+    height: 400px;
+}
+.info{
+    width: 265px;
+    height: 200px;
+}
+.comtainer{
+    width: 965px;
+    background: white;
+    margin: auto;
+}
+.top{
+   margin-top: 30pxs;
+}
+.menu{
+    float: right;
+}
+.menu li{
+ display: inline-block;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu a:hover{
+   background-color: black;
+   color: aliceblue; 
+}
+.col{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: justify;
+}
+.col h2{
+    color: black;
+}
+.row{
+    text-align: center;
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
